@@ -1,9 +1,3 @@
-/* 
- * Copyright (c) 2016 Bruce Schubert.
- * The MIT License
- * http://www.opensource.org/licenses/mit-license
- */
-
 /*global define, WorldWind*/
 
 

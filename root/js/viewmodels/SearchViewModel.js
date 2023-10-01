@@ -23,7 +23,7 @@ define(['model/util/Log', 'knockout', 'jquery', 'jquery-growl', 'worldwind'],
         function SearchViewModel(globe, viewElementId) {
             var self = this,
                 wwd = globe.wwd,
-                accessKey = "czi9YcGn9QCqUsqDqOwyGIDl0HhwlA3A";
+                accessKey = "99ImU7Xi64WMhjShhLZujnsK4wAu54Ht";
 
             this.geocoder = new WorldWind.NominatimGeocoder();
             this.goToAnimator = new WorldWind.GoToAnimator(wwd);
