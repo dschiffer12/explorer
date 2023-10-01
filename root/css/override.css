@@ -267,11 +267,11 @@ VisJS library overrides
 
 .vis-data-axis .vis-y-axis.vis-major {
     /*in the 'slate' color scheme we need a bright color for the major*/
-    color: #dedede;
+    color: #2A9D8F;
 }
 
 .vis-data-axis .vis-y-axis.vis-minor {
-    color: #bebebe;
+    color: #2A9DDF;
 }
 
 .vis-data-axis .vis-y-axis.vis-minor.vis-measure {

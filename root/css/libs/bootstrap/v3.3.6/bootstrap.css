@@ -1184,7 +1184,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: fantasy;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1373,8 +1373,8 @@ a.text-danger:focus {
   color: #843534;
 }
 .bg-primary {
-  color: #fff;
-  background-color: #337ab7;
+    color: #cccccc;
+  background-color: #f5f5f5;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -1469,7 +1469,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #777;
+  border-bottom: 1px dotted #774abf;
 }
 .initialism {
   font-size: 90%;

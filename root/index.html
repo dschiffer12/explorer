@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <!--
  The MIT License
- Copyright (c) 2016-2017 Bruce Schubert.
+ Copyright (c) 2023 Dustin Schiffer.
 -->
 <!--suppress XmlHighlighting, HtmlUnknownTag, HtmlUnknownTag, HtmlUnknownTag, HtmlUnknownTag, HtmlUnknownTag -->
 <html lang="en-us">
     <head>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10395973-12"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -28,7 +25,7 @@
         <meta name="description" content="TellusForge">
         <meta name="author" content="Dustin SChiffer">
         <meta name="description" content="Based on NASA's WorldWind Explorer, Tellus Forge is a geospatial web app
-              for visualizing the earth. It uses the Emxsys WorldWindJS library
+              for visualizing the earth. It uses the WorldWindJS library
               to display a 3D globe with terrain and imagery as well as 2D maps.
               It displays the sunrise and sunset times and solar angles for any 
               point on the earth. It shows the terrain's aspect and slope for any 
@@ -39,11 +36,11 @@
         <link rel="icon" type="image/png" href="explorer-logo16.ico"/>
 
         <!-- JQuery UI provides some UI elements (e.g, a slider) -->
-        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css"/>
+        <link href="css/libs/jquery-ui/v1.11.4/jquery-ui.css" rel="stylesheet" type="text/css"/>
         <!-- Bootstrap's 'Slate' theme provides the main styling -->
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css"/>
+        <link href="css/libs/bootstrap/v3.3.6/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <!-- Vis.js provides graphs and charting -->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"/>
+        <link href="css/libs/vis/vis.css" rel="stylesheet" type="text/css"/>
         <!-- JQuery-Growl plugin for growl style messages-->
         <link rel="stylesheet" type="text/css" href="css/libs/jquery-plugins/jquery.growl.css"/>
         <!-- Dragula provides layer dragging -->
@@ -63,7 +60,7 @@
                 <!-- Branding and 'hamburger' menu -->
                 <div id="header" class="navbar-header">
                     <!-- Branding icon and text on left--> 
-                    <a href="https://worldwind.earth" target="_blank">
+                    <a href="https://tellus-forge.com" target="_blank">
                         <img class="navbar-brand" id="explorer-logo" src="explorer-logo32.png" alt=""/>
                     </a>                    
                     <a class="navbar-brand" href="https://github.com/dschiffer12" target="_blank">
